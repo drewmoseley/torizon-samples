@@ -1,6 +1,6 @@
 # About this Alsa API sample
 
-This sample is meant to serve as a source for the article [How to play audio on TorizonCore using Alsa and C/C++](https://developer2.toradex.com/how-to-play-audio-on-torizoncore-using-alsa-and-cc?review=post&id=200025).
+This sample is meant to serve as a source for the article [How to play audio on TorizonCore using Alsa and C/C++](https://developer.toradex.com/how-to-play-audio-on-torizoncore-using-alsa-and-cc?review=post&id=200025).
 
 Here we have:
 
