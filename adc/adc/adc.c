@@ -36,7 +36,7 @@ int main(int argc, char **argv)
 	int sample_val;
 	float voltage_scale;
 	char *sysfs_dir;
-	int dev_num = 1;
+	int dev_num = 0;
 
 	if (asprintf(&sysfs_dir, "/sys/bus/iio/devices/iio:device%d", dev_num) < 0)
 	{

@@ -44,7 +44,7 @@ services:
     depends_on:
       weston:
         condition: service_healthy
-    image: <your-username>/<your-image>
+    image: drewmoseley/gst_example
     volumes:
        - /tmp:/tmp 
        - /sys:/sys
