@@ -1,16 +1,16 @@
-DEPS = adc_sample.h iio_utils.h
-OBJ = adc_sample.o iio_utils.o
+DEPS = adc.h iio_utils.h
+OBJ = adc.o iio_utils.o
 
 %.o : %.c $(DEPS)
 	$(CC) -c -o $@ $< $(CFLAGS)
 
-adc_sample: $(OBJ)
+adc: $(OBJ)
 	$(CC) -o $@ $^ $(CFLAGS)
 
-install: adc_sample
+install: adc
 	mkdir -p $(WORKDIR)
-	cp adc_sample $(WORKDIR)/
+	cp adc $(WORKDIR)/
 
 clean:
 	rm -f *.o
-	rm -f adc_sample
+	rm -f adc
